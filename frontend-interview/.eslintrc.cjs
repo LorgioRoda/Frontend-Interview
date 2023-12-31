@@ -1,3 +1,5 @@
+const { default: tailwindConfig } = require("./tailwind.config");
+
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
@@ -6,7 +8,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'tailwind.config.ts'],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
 }

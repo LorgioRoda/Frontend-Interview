@@ -3,7 +3,7 @@
 export const Home = () => {
   return (
     <>
-      <h1>Frontend Interview</h1>
+      <h1 className="text-9xl">Frontend Interview</h1>
     </>
   )
 }
